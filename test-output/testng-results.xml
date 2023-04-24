@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-24T13:14:28 IST" name="Suite" finished-at="2023-04-24T13:14:39 IST" duration-ms="11461">
+    <groups>
+    </groups>
+    <test started-at="2023-04-24T13:14:28 IST" name="Test" finished-at="2023-04-24T13:14:39 IST" duration-ms="11461">
+      <class name="qa.tests.SauceDemo">
+        <test-method is-config="true" signature="beforeTestMethod()[pri:0, instance:qa.tests.SauceDemo@47d9a273]" started-at="2023-04-24T13:14:28 IST" name="beforeTestMethod" finished-at="2023-04-24T13:14:28 IST" duration-ms="354" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestMethod -->
+        <test-method is-config="true" signature="beforeMethodMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:qa.tests.SauceDemo@47d9a273]" started-at="2023-04-24T13:14:28 IST" name="beforeMethodMethod" finished-at="2023-04-24T13:14:36 IST" duration-ms="7114" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void qa.tests.SauceDemo.LoginPageValidation() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodMethod -->
+        <test-method signature="LoginPageValidation()[pri:0, instance:qa.tests.SauceDemo@47d9a273]" started-at="2023-04-24T13:14:36 IST" name="LoginPageValidation" finished-at="2023-04-24T13:14:39 IST" duration-ms="3431" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginPageValidation -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:qa.tests.SauceDemo@47d9a273]" started-at="2023-04-24T13:14:39 IST" name="afterMethod" finished-at="2023-04-24T13:14:39 IST" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginPageValidation status=SUCCESS method=SauceDemo.LoginPageValidation()[pri:0, instance:qa.tests.SauceDemo@47d9a273] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:qa.tests.SauceDemo@47d9a273]" started-at="2023-04-24T13:14:39 IST" name="afterTest" finished-at="2023-04-24T13:14:39 IST" duration-ms="520" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- qa.tests.SauceDemo -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
